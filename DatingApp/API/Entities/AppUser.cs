@@ -8,5 +8,8 @@ namespace API.Entities
         // UserName - default naming convention for MVC authentication. Can be changed but will require some
         // amount of tweaks to get the authentication working
         public string UserName { get; set; }
+
+        public byte[] PasswordHash { get; set; }
+        public byte[] PasswordSalt { get; set; }
     }
 }
