@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* It is necessary to import the toastr.css in custom style. Without adding this 
+I'm not seeing the toast on screen instead it is just displaying the message. */
+@import '../node_modules/ngx-toastr/toastr.css';
+@import '../node_modules/bootswatch/dist/united/bootstrap.css';
